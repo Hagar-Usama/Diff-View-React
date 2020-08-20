@@ -3,12 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/digiaonline.react-foundation.label": "^0.9.6",
+    "@bit/nexxtway.react-rainbow.accordion": "^1.10.0",
+    "@bit/nexxtway.react-rainbow.accordion-section": "^1.10.0",
+    "@bit/nexxtway.react-rainbow.card": "^1.10.0",
+    "@bit/nexxtway.react-rainbow.input": "^1.10.0",
+    "@bit/semantic-org.semantic-ui-react.segment": "^0.88.2",
+    "@bit/semantic-org.semantic-ui-react.tab": "^0.88.2",
+    "@bit/yny.phoenix-ui-kit.label": "0.0.9",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "classnames": "^2.2.6",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.20",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-diff-viewer": "^3.1.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "semantic-ui-react": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
