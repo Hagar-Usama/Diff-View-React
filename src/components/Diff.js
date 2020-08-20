@@ -10,10 +10,10 @@ const Results = data;
 function Diff() {
   return (
     <React.Fragment>
-      <Header textAlign="center" as="h4">
+      <Header textAlign="center" as="h4" style={{color: "white"}}>
         Results diff are ready for view
       </Header>
-      <Card style={{ height: "20%" }}>
+      <Card>
         <Accordion id="accordion-1">
           {Results.map((result) => (
             <SingleDiff result={result} />
